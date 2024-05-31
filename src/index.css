@@ -1,0 +1,12 @@
+body {
+  padding: 0 16px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#get-info-button {
+  margin-top: 16px;
+}
