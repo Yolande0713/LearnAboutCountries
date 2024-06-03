@@ -10,3 +10,11 @@ main {
 #get-info-button {
   margin-top: 16px;
 }
+
+.link {
+  text-decoration: none;
+}
+
+.link-text {
+  margin-bottom: 2px;
+}

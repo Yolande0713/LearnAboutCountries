@@ -39,6 +39,7 @@ function App() {
       <CssBaseline />
       <main>
         <h1>Learn About Countries!</h1>
+
         <Autocomplete
           onChange={handleAutocompleteChange}
           disablePortal
@@ -55,6 +56,28 @@ function App() {
         </Button>
 
         <CountryInfo countryName={countryToGetInfoFrom} />
+
+        <h2>About this project</h2>
+        <p className="link-text">Find the source code here</p>
+        <Button variant="contained">
+          <a
+            href="https://github.com/Yolande0713/LearnAboutCountries"
+            target="_blank"
+            className="link"
+          >
+            Source Code
+          </a>
+        </Button>
+        <p className="link-text">Check out my other projects and find out more about me</p>
+        <Button variant="contained">
+          <a
+            href="https://yolande0713.github.io/"
+            target="_blank"
+            className="link"
+          >
+            Portfolio Site
+          </a>
+        </Button>
       </main>
     </ThemeProvider>
   );
